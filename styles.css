@@ -4,33 +4,56 @@
     box-sizing: border-box;
     font-family: 'Comfortaa', sans-serif;
     font-size: 80px;
+    background-size: cover;
 }
 
 .page1 {
-    background-color: #f64740;
+    background-image: url('./images/iceland.jpg');
+    background-size: cover;
 }
 
 .page2 {
-    background-color: #3772ff;
+    background-image: url('./images/montain.jpg');
+    background-size: cover;
 }
 
 .page3 {
-    background-color: #fdca40;
+    background-image: url('./images/pescador.jpg');
+    background-size: cover;
 }
 
 .page4 {
-    background-color: #00ffae;
+    background-image: url('./images/sunrise_barco.jpg');
+    background-size: cover;
 }
 
 .page5 {
-    background-color: #06070e;
+    background-image: url('./images/sunsei_river.jpg');
+}
+
+.page6 {
+    background-image: url('./images/sunset.jpg');
+}
+
+img{
+    background-size: cover;
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .interface {
     height: 100vh;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-}
+} 
+
 
 section {
     height: 100vh;
